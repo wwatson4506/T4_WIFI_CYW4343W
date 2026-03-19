@@ -9,4 +9,21 @@ Library for testing the Murata 1DX / CYW4343W WiFi chip on uSDHC1 and uSDHC2 on 
 ### and the library at:
 ### https://github.com/jbentham/picowi.
 
-## Refer to https://forum.pjrc.com/index.php?threads/call-to-arms-teensy-wifi-true.77099/ for a description of the CYW4343W adapter board that is used with this library.
+## Refer to https://forum.pjrc.com/index.php?threads/call-to-arms-teensy-wifi-true.77099/ for a description of the CYW4343W adapter board created by @Dogbone06 that is used with this library.
+The CYW4343W wifi board can use either one of the two available SDIO ports on the Teensy 4.1 and DEV board 5.The T4.1 pinout is shown below (Have not tried the DB5 yet, will test later).
+ ## PINOUT:
+TEENSY 4.1   WIFI Board
+- 23 --------> clk
+- 22 --------> cmd
+- 17 --------> D2
+- 16 --------> D3
+- 41 --------> D1
+- 40 --------> D0
+- 34 --------> INT
+- 33 --------> WL_ON
+
+## EXAMPLES:
+- WiFi_scan_T4.ino An example of the scan function.
+- WiFi_join_T4.ino An example of joining a network.
+- ping_T4.ino      An example of pinging devices on a local network.
+-  
