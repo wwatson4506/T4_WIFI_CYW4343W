@@ -78,7 +78,7 @@ typedef unsigned int    DWORD;
 
 #define LED_PIN         10
 
-#define USE_DEBUG_COLORS
+//#define USE_DEBUG_COLORS
 
 #if defined (USE_DEBUG_COLORS)
 //Foreground: reset = 0, black = 30, red = 31, green = 32, yellow = 33, blue = 34, magenta = 35, cyan = 36, and white = 37
