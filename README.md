@@ -9,4 +9,4 @@ Library for testing the Murata 1DX / CYW4343W WiFi chip on uSDHC1 and uSDHC2 on 
 ### and the library at:
 ### https://github.com/jbentham/picowi.
 
-## Refer to https://forum.pjrc.com/index.php?threads/call-to-arms-teensy-wifi-true.77099/#post-359658 for a description of the CYW4343W adapter board that is used with this library.
+## Refer to https://forum.pjrc.com/index.php?threads/call-to-arms-teensy-wifi-true.77099/ for a description of the CYW4343W adapter board that is used with this library.
