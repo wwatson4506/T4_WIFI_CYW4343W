@@ -104,6 +104,7 @@ typedef unsigned int    DWORD;
 #define SER_YELLOW ""
 #define SER_MAGENTA ""
 #define SER_CYAN ""
+#define SER_WHITE ""
 #define SER_RESET ""
 
 #define SER_TRACE ""
