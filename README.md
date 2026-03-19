@@ -23,7 +23,15 @@ TEENSY 4.1   WIFI Board
 - 33 --------> WL_ON
 
 ## EXAMPLES:
-- WiFi_scan_T4.ino An example of the scan function.
-- WiFi_join_T4.ino An example of joining a network.
-- ping_T4.ino      An example of pinging devices on a local network.
--  
+- WiFi_scan_T4.ino  An example of the scan function.
+- WiFi_join_T4.ino  An example of joining a network.
+- ping_T4.ino       An example of pinging devices on a local network.
+- udp_server_T4.ino An example of UDP usage. Use " echo -n "Teensy 4.1" | nc -4u -w1 192.168.0.103 8080 " with your assigned T4.1 IP address using your laptop or computer.
+- DHCP_T4.ino       An example of getting an IP address for the T4.1 using DHCP.
+- dns_T4.ino        An example of getting an IP address(S) and other information about a web site by name. pjrc.com is one example.
+- web_server_T4.ino A partially working example of a web server accessed by a web browser on a laptop or computer on your local network. See picowi docs link above.
+
+ This is a complete re-write of https://github.com/wwatson4506/CYW4343W_t4 and adaption of picowi to the Teensy 4.1 and hopefully the DB5.
+
+ ## This is a WIP project and may not go any further in development than this. 
+ # USE AT YOUR OWN RISK!
